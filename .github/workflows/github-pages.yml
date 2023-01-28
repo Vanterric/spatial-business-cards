@@ -20,7 +20,7 @@ jobs:
     - name: Upload package artifact
       uses: actions/upload-artifact@v2
       with:
-        name: Project-deploy
+        name: SpatialBusinessCards-deploy
         path: deploy/
   deploy:
     needs: package
