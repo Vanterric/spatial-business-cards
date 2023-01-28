@@ -136,62 +136,6 @@
                 1.0
             ]
         },
-        "24": {
-            "name": "Cone",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "10",
-                        "material": "25"
-                    }
-                }
-            ],
-            "translation": [
-                1.5,
-                1.0,
-                -1.4901161193847656e-8
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scale": [
-                1.0,
-                1.0,
-                1.0
-            ]
-        },
-        "27": {
-            "name": "Sphere",
-            "components": [
-                {
-                    "type": "mesh",
-                    "mesh": {
-                        "mesh": "9",
-                        "material": "26"
-                    }
-                }
-            ],
-            "translation": [
-                0.4999999,
-                0.75,
-                -1.25
-            ],
-            "rotation": [
-                0.0,
-                0.0,
-                0.0,
-                1.0
-            ],
-            "scale": [
-                0.75,
-                0.75,
-                0.75
-            ]
-        },
         "44": {
             "link": {
                 "name": "AR Target",
@@ -199,17 +143,7 @@
             },
             "parent": "18",
             "components": [
-                null,
-                {
-                    "type": "hit-test-location"
-                },
-                {
-                    "type": "spawn-mesh-on-select",
-                    "spawn-mesh-on-select": {
-                        "mesh": "8",
-                        "material": "22"
-                    }
-                }
+                null
             ],
             "translation": [
                 0.0,
@@ -240,16 +174,6 @@
                     "input": {
                         "type": "eye right"
                     }
-                }
-            ]
-        },
-        "62": {
-            "name": "HitTestLocation",
-            "parent": "18",
-            "components": [
-                {
-                    "type": "hit-test-location",
-                    "active": false
                 }
             ]
         }
