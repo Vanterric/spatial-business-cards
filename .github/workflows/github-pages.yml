@@ -11,7 +11,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Package
-      run: /usr/local/bin/entrypoint.sh WonderlandEditor --windowless --package --project SpatialBusinessCards.wlp --credentials "$WLE_CREDENTIALAS":edge
+    - run: apt-get install -y libatomic1
+      run: /usr/local/bin/entrypoint.sh WonderlandEditor --windowless --package --project SpatialBusinessCards.wlp --credentials "$WLE_CREDENTIALS" 
       env:
           WLE_CREDENTIALS: ${{ secrets.WLE_CREDENTIALS }}
     - name: Gzip
