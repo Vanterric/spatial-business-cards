@@ -524,7 +524,8 @@
                 0,
                 9,
                 5
-            ]
+            ],
+            "customIndexHtml": true
         },
         "vr": {
             "leftEyeObject": "18",
