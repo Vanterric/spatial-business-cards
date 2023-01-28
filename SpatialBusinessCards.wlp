@@ -248,7 +248,8 @@
             "parent": "18",
             "components": [
                 {
-                    "type": "hit-test-location"
+                    "type": "hit-test-location",
+                    "active": false
                 }
             ]
         }
